@@ -56,7 +56,7 @@ namespace DBWizard
             {
                 programComboBox.Items.Add(p.name);
             }
-            
+
             List<School> schools = new List<School>();
             schools = SqliteDataAccess.GetSchools();
             foreach (School s in schools)
@@ -69,7 +69,7 @@ namespace DBWizard
         private void student_pictureBox_DoubleClick(object sender, EventArgs e)
         {
             DialogResult dr = pic_openFileDialog.ShowDialog();
-            if(dr == DialogResult.OK)
+            if (dr == DialogResult.OK)
             {
             }
         }
@@ -92,7 +92,7 @@ namespace DBWizard
         private void pictureBox1_Click(object sender, EventArgs e)
         {
             DialogResult dr = pic_openFileDialog.ShowDialog();
-            if(dr == DialogResult.OK)
+            if (dr == DialogResult.OK)
             {
                 //Place in dicpic box
 
@@ -119,7 +119,7 @@ namespace DBWizard
 
             //Validate the picture is under 2147483647 characters in length.
             dickpic = ObjectToByteArray(student_pictureBox.Image);
-            if(dickpic.Length >= 2147483647) //THAT'S WHAT SHE SAID
+            if (dickpic.Length >= 2147483647) //THAT'S WHAT SHE SAID
             {
                 MessageBox.Show("The selected student photo size is too large. Choose a smaller photo size or shrink the photo.");
                 return;
@@ -151,10 +151,10 @@ namespace DBWizard
 
             //save data to sqldb.
             //update existing student.
-            if(SqliteDataAccess.FindStudentByStudentId(student.student_id).Count > 0)
+            if (SqliteDataAccess.FindStudentByStudentId(student.student_id).Count > 0)
             {
                 SqliteDataAccess.UpdateStudent(student);
-                SqliteDataAccess.UpdateParent(parent,student.parent_id);
+                SqliteDataAccess.UpdateParent(parent, student.parent_id);
             }
             else //new student
             {
@@ -209,9 +209,9 @@ namespace DBWizard
             ComboBox cb = (ComboBox)sender;
 
             if (cb.SelectedIndex < 0)
-                { errorProvider1.SetError(cb, "Select an item."); }
+            { errorProvider1.SetError(cb, "Select an item."); }
             else
-                { errorProvider1.SetError(cb, ""); }
+            { errorProvider1.SetError(cb, ""); }
         }
 
         /* Does not really check to see if it is a valid phone number
@@ -221,11 +221,11 @@ namespace DBWizard
          */
         private void phoneNumberNumericUpDown_Validating(object sender, CancelEventArgs e)
         {
-            if(phoneNumberNumericUpDown.Value == phoneNumberNumericUpDown.Minimum 
+            if (phoneNumberNumericUpDown.Value == phoneNumberNumericUpDown.Minimum
             || phoneNumberNumericUpDown.Value == phoneNumberNumericUpDown.Maximum)
-                { errorProvider1.SetError(phoneNumberNumericUpDown, "Type in a valid phone number"); }
+            { errorProvider1.SetError(phoneNumberNumericUpDown, "Type in a valid phone number"); }
             else
-                { errorProvider1.SetError(phoneNumberNumericUpDown, "");  }
+            { errorProvider1.SetError(phoneNumberNumericUpDown, ""); }
         }
 
         private void emailAddressTextBox_Validating(object sender, CancelEventArgs e)
@@ -240,10 +240,10 @@ namespace DBWizard
 
         private void dob_dateTimePicker_Validating(object sender, CancelEventArgs e)
         {
-            if(dob_dateTimePicker.Value == DateTime.Now)
-                { errorProvider1.SetError(dob_dateTimePicker, "Please choose DOB."); }
+            if (dob_dateTimePicker.Value == DateTime.Now)
+            { errorProvider1.SetError(dob_dateTimePicker, "Please choose DOB."); }
             else
-                { errorProvider1.SetError(dob_dateTimePicker, ""); }
+            { errorProvider1.SetError(dob_dateTimePicker, ""); }
         }
 
         private void student_idTextBox_Validating(object sender, CancelEventArgs e)
@@ -272,27 +272,27 @@ namespace DBWizard
         // clears the form
         private void ClearForm()
         {
-            foreach(Control c in this.Controls)
+            foreach (Control c in this.Controls)
             {
                 if (c is TextBox)
                 {
                     TextBox tb = (TextBox)c;
                     tb.Text = null;
                 }
-                
-                if(c is ComboBox)
+
+                if (c is ComboBox)
                 {
                     ComboBox cb = (ComboBox)c;
                     cb.SelectedIndex = -1;
                 }
 
-                if(c is DateTimePicker)
+                if (c is DateTimePicker)
                 {
                     DateTimePicker dtp = (DateTimePicker)c;
                     dtp.Value = DateTime.Today;
                 }
 
-                if(c is NumericUpDown)
+                if (c is NumericUpDown)
                 {
                     NumericUpDown nud = (NumericUpDown)c;
                     nud.Value = nud.Minimum;
@@ -331,5 +331,6 @@ namespace DBWizard
         {
             ClearForm();
         }
+
     }
 }
