@@ -760,7 +760,7 @@
             // 
             this.btnChaosMonkey.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.btnChaosMonkey.Font = new System.Drawing.Font("Sitka Display", 10.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnChaosMonkey.Location = new System.Drawing.Point(657, 507);
+            this.btnChaosMonkey.Location = new System.Drawing.Point(656, 610);
             this.btnChaosMonkey.Margin = new System.Windows.Forms.Padding(4);
             this.btnChaosMonkey.Name = "btnChaosMonkey";
             this.btnChaosMonkey.Size = new System.Drawing.Size(143, 68);
