@@ -360,7 +360,7 @@
             this.bindingNavigatorAddNewItem,
             this.bindingNavigatorDeleteItem,
             this.studentBindingNavigatorSaveItem});
-            this.studentBindingNavigator.Location = new System.Drawing.Point(861, 0);
+            this.studentBindingNavigator.Location = new System.Drawing.Point(861, 2);
             this.studentBindingNavigator.MoveFirstItem = this.bindingNavigatorMoveFirstItem;
             this.studentBindingNavigator.MoveLastItem = this.bindingNavigatorMoveLastItem;
             this.studentBindingNavigator.MoveNextItem = this.bindingNavigatorMoveNextItem;
@@ -368,7 +368,7 @@
             this.studentBindingNavigator.Name = "studentBindingNavigator";
             this.studentBindingNavigator.Padding = new System.Windows.Forms.Padding(0, 0, 3, 0);
             this.studentBindingNavigator.PositionItem = this.bindingNavigatorPositionItem;
-            this.studentBindingNavigator.Size = new System.Drawing.Size(503, 44);
+            this.studentBindingNavigator.Size = new System.Drawing.Size(503, 39);
             this.studentBindingNavigator.TabIndex = 2;
             this.studentBindingNavigator.Text = "bindingNavigator1";
             // 
@@ -378,13 +378,13 @@
             this.bindingNavigatorAddNewItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorAddNewItem.Image")));
             this.bindingNavigatorAddNewItem.Name = "bindingNavigatorAddNewItem";
             this.bindingNavigatorAddNewItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorAddNewItem.Size = new System.Drawing.Size(46, 38);
+            this.bindingNavigatorAddNewItem.Size = new System.Drawing.Size(46, 33);
             this.bindingNavigatorAddNewItem.Text = "Add new";
             // 
             // bindingNavigatorCountItem
             // 
             this.bindingNavigatorCountItem.Name = "bindingNavigatorCountItem";
-            this.bindingNavigatorCountItem.Size = new System.Drawing.Size(71, 38);
+            this.bindingNavigatorCountItem.Size = new System.Drawing.Size(71, 33);
             this.bindingNavigatorCountItem.Text = "of {0}";
             this.bindingNavigatorCountItem.ToolTipText = "Total number of items";
             // 
@@ -394,7 +394,7 @@
             this.bindingNavigatorDeleteItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorDeleteItem.Image")));
             this.bindingNavigatorDeleteItem.Name = "bindingNavigatorDeleteItem";
             this.bindingNavigatorDeleteItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorDeleteItem.Size = new System.Drawing.Size(46, 38);
+            this.bindingNavigatorDeleteItem.Size = new System.Drawing.Size(46, 33);
             this.bindingNavigatorDeleteItem.Text = "Delete";
             // 
             // bindingNavigatorMoveFirstItem
@@ -403,7 +403,7 @@
             this.bindingNavigatorMoveFirstItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMoveFirstItem.Image")));
             this.bindingNavigatorMoveFirstItem.Name = "bindingNavigatorMoveFirstItem";
             this.bindingNavigatorMoveFirstItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorMoveFirstItem.Size = new System.Drawing.Size(46, 38);
+            this.bindingNavigatorMoveFirstItem.Size = new System.Drawing.Size(46, 33);
             this.bindingNavigatorMoveFirstItem.Text = "Move first";
             // 
             // bindingNavigatorMovePreviousItem
@@ -412,13 +412,13 @@
             this.bindingNavigatorMovePreviousItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMovePreviousItem.Image")));
             this.bindingNavigatorMovePreviousItem.Name = "bindingNavigatorMovePreviousItem";
             this.bindingNavigatorMovePreviousItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorMovePreviousItem.Size = new System.Drawing.Size(46, 38);
+            this.bindingNavigatorMovePreviousItem.Size = new System.Drawing.Size(46, 33);
             this.bindingNavigatorMovePreviousItem.Text = "Move previous";
             // 
             // bindingNavigatorSeparator
             // 
             this.bindingNavigatorSeparator.Name = "bindingNavigatorSeparator";
-            this.bindingNavigatorSeparator.Size = new System.Drawing.Size(6, 44);
+            this.bindingNavigatorSeparator.Size = new System.Drawing.Size(6, 39);
             // 
             // bindingNavigatorPositionItem
             // 
@@ -432,7 +432,7 @@
             // bindingNavigatorSeparator1
             // 
             this.bindingNavigatorSeparator1.Name = "bindingNavigatorSeparator1";
-            this.bindingNavigatorSeparator1.Size = new System.Drawing.Size(6, 44);
+            this.bindingNavigatorSeparator1.Size = new System.Drawing.Size(6, 39);
             // 
             // bindingNavigatorMoveNextItem
             // 
@@ -440,7 +440,7 @@
             this.bindingNavigatorMoveNextItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMoveNextItem.Image")));
             this.bindingNavigatorMoveNextItem.Name = "bindingNavigatorMoveNextItem";
             this.bindingNavigatorMoveNextItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorMoveNextItem.Size = new System.Drawing.Size(46, 38);
+            this.bindingNavigatorMoveNextItem.Size = new System.Drawing.Size(46, 33);
             this.bindingNavigatorMoveNextItem.Text = "Move next";
             // 
             // bindingNavigatorMoveLastItem
@@ -449,13 +449,13 @@
             this.bindingNavigatorMoveLastItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMoveLastItem.Image")));
             this.bindingNavigatorMoveLastItem.Name = "bindingNavigatorMoveLastItem";
             this.bindingNavigatorMoveLastItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorMoveLastItem.Size = new System.Drawing.Size(46, 38);
+            this.bindingNavigatorMoveLastItem.Size = new System.Drawing.Size(46, 33);
             this.bindingNavigatorMoveLastItem.Text = "Move last";
             // 
             // bindingNavigatorSeparator2
             // 
             this.bindingNavigatorSeparator2.Name = "bindingNavigatorSeparator2";
-            this.bindingNavigatorSeparator2.Size = new System.Drawing.Size(6, 44);
+            this.bindingNavigatorSeparator2.Size = new System.Drawing.Size(6, 39);
             // 
             // studentBindingNavigatorSaveItem
             // 
@@ -463,7 +463,7 @@
             this.studentBindingNavigatorSaveItem.Enabled = false;
             this.studentBindingNavigatorSaveItem.Image = ((System.Drawing.Image)(resources.GetObject("studentBindingNavigatorSaveItem.Image")));
             this.studentBindingNavigatorSaveItem.Name = "studentBindingNavigatorSaveItem";
-            this.studentBindingNavigatorSaveItem.Size = new System.Drawing.Size(46, 38);
+            this.studentBindingNavigatorSaveItem.Size = new System.Drawing.Size(46, 33);
             this.studentBindingNavigatorSaveItem.Text = "Save Data";
             // 
             // pic_openFileDialog
@@ -669,6 +669,7 @@
             // 
             // save_button
             // 
+            this.save_button.AutoSize = true;
             this.save_button.Font = new System.Drawing.Font("Sitka Display", 10.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.save_button.Location = new System.Drawing.Point(61, 507);
             this.save_button.Margin = new System.Windows.Forms.Padding(4);
@@ -682,6 +683,7 @@
             // parent_groupBox
             // 
             this.parent_groupBox.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.parent_groupBox.AutoSize = true;
             this.parent_groupBox.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.parent_groupBox.Controls.Add(emailAddressLabel);
             this.parent_groupBox.Controls.Add(this.emailAddressTextBox);
@@ -696,7 +698,7 @@
             this.parent_groupBox.Margin = new System.Windows.Forms.Padding(4);
             this.parent_groupBox.Name = "parent_groupBox";
             this.parent_groupBox.Padding = new System.Windows.Forms.Padding(4);
-            this.parent_groupBox.Size = new System.Drawing.Size(468, 323);
+            this.parent_groupBox.Size = new System.Drawing.Size(440, 323);
             this.parent_groupBox.TabIndex = 21;
             this.parent_groupBox.TabStop = false;
             this.parent_groupBox.Text = "Parent Information";
@@ -723,6 +725,8 @@
             // 
             // clear_button
             // 
+            this.clear_button.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.clear_button.AutoSize = true;
             this.clear_button.Font = new System.Drawing.Font("Sitka Display", 10.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.clear_button.Location = new System.Drawing.Point(252, 507);
             this.clear_button.Margin = new System.Windows.Forms.Padding(4);
@@ -735,6 +739,8 @@
             // 
             // delete_button
             // 
+            this.delete_button.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.delete_button.AutoSize = true;
             this.delete_button.Font = new System.Drawing.Font("Sitka Display", 10.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.delete_button.Location = new System.Drawing.Point(465, 507);
             this.delete_button.Margin = new System.Windows.Forms.Padding(4);
@@ -758,7 +764,8 @@
             // 
             // btnChaosMonkey
             // 
-            this.btnChaosMonkey.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.btnChaosMonkey.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btnChaosMonkey.AutoSize = true;
             this.btnChaosMonkey.Font = new System.Drawing.Font("Sitka Display", 10.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnChaosMonkey.Location = new System.Drawing.Point(652, 507);
             this.btnChaosMonkey.Margin = new System.Windows.Forms.Padding(4);
@@ -794,7 +801,10 @@
             // 
             // panel1
             // 
-            this.panel1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.panel1.AutoSize = true;
             this.panel1.Controls.Add(this.lblFoundStudents);
             this.panel1.Controls.Add(this.foundStudents_comboBox);
             this.panel1.Controls.Add(this.btnChaosMonkey);
@@ -830,10 +840,12 @@
             // 
             // panel2
             // 
+            this.panel2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.panel2.AutoSize = true;
             this.panel2.Controls.Add(this.panel1);
             this.panel2.Controls.Add(this.topTableLayoutPanel);
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel2.Location = new System.Drawing.Point(0, 0);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(1373, 815);
@@ -854,13 +866,13 @@
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Inherit;
             this.AutoScroll = true;
-            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.ClientSize = new System.Drawing.Size(1373, 815);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel3);
             this.MainMenuStrip = this.mainMenuStrip;
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
+            this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
             this.Text = "KentYouthDB";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.topTableLayoutPanel.ResumeLayout(false);
@@ -878,6 +890,7 @@
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.studentBindingSource)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
